@@ -19,6 +19,7 @@ for file in $(cat $1); do
     continue
   fi
   echo "copying $file to $targetFile"
-  mkdir -p "$(dirname "$targetFile")"
+  rm -r $targetFile
+  mkdir -p "$(dirname $targetFile)"
   /usr/bin/cp -r ${file} ${targetFile}
 done
