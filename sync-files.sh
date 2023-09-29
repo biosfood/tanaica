@@ -1,5 +1,8 @@
 #!/usr/bin/bash
 
+# Use this script to copy the files from the OS to the repository.
+# Usage: <files>: reference to a file containing paths to files which should be synchronized
+
 if [[ $# != 1 ]]; then
   echo "Usage: $0 <input_file>"
   exit
