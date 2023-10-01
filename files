@@ -2,3 +2,5 @@
 ~/.config/konsolerc
 ~/.config/polybar
 /usr/lib/os-release
+/usr/share/xsessions/tanaica.desktop
+~/.config/tbsm/start-i3

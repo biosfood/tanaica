@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Tanaica
+Comment=Tanaica desktop
+Exec=~/.config/tbsm/start-i3
+TryExec=i3
+Type=Application
+X-LightDM-DesktopName=Tanaica
+DesktopNames=Tanaica
+Keywords=tiling;wm;windowmanager;window;manager;

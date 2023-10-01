@@ -1,0 +1,17 @@
+#!/bin/bash
+xrdb -load ~/.Xresources 
+xrdb_output=$(xrdb -query)
+
+while IFS= read -r line; do
+  if [[ "$line" =~ \* ]]; then
+    line=$(echo "$line" | sed "s/\*//")
+    name=$(echo "$line" | cut -d':' -f1 | tr -d '[:space:]')
+    value=$(echo "$line" | cut -d':' -f2 | tr -d '[:space:]')
+    export $name=$value
+  fi
+done <<< "$xrdb_output"
+
+# Use zsh in i3
+export SHELL=/bin/zsh
+
+i3
