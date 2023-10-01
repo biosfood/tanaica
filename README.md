@@ -6,6 +6,12 @@ i3-based linux configurations for a peaceful setup experience
 
 This project is named after the [Tanaica Montes](https://en.wikipedia.org/wiki/Tanaica_Montes), a martian mountain range.
 
+## Dependencies
+
+All dependencies for this repository are listed in `dependencies`. To install all of them, use your favourite AUR-helper (here paru) like this and install all the packages:
+
+``` cat dependencies | paru -S - ```
+
 ## Installation
 
 ### Into existing Installation
