@@ -29,3 +29,5 @@ To leave out or just copy a few select files, modify the `files` file which cont
 To sync the configuration files of your user to the repository, run `./sync-files.sh files`. When commiting, make sure only the files you want to have changed in the repository are actually added.
 
 When adding dotfiles for an additional programm or generally suggesting a new dependency, add its AUR name to the `dependencies` file.
+
+Konsole likes to regularly mess up configurations. Because of this, its `.konsolerc` is inside `.gitignore`. Be especially careful when committing this file.
