@@ -27,3 +27,5 @@ To leave out or just copy a few select files, modify the `files` file which cont
 ## Development
 
 To sync the configuration files of your user to the repository, run `./sync-files.sh files`. When commiting, make sure only the files you want to have changed in the repository are actually added.
+
+When adding dotfiles for an additional programm or generally suggesting a new dependency, add its AUR name to the `dependencies` file.
