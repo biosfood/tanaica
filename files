@@ -1,6 +1,9 @@
 ~/.config/i3
 ~/.config/konsolerc
 ~/.config/polybar
+~/.config/tbsm/start-i3
+~/.config/oh-my-posh.json
+~/.zshrc
+~/.bashrc
 /usr/lib/os-release
 /usr/share/xsessions/tanaica.desktop
-~/.config/tbsm/start-i3
