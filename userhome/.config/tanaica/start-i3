@@ -1,5 +1,5 @@
 #!/bin/bash
-xrdb -load ~/.Xresources 
+xrdb -load ~/.config/tanaica/Xresources 
 xrdb_output=$(xrdb -query)
 
 while IFS= read -r line; do

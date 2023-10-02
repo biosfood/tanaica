@@ -1,0 +1,41 @@
+*background: #191c1a
+*foreground: #e1e3e0
+*onBackground: #e1e3e0
+
+*outline: #89938d
+*surfaceVariant: #404944
+*onSurfaceVariant: #bfc9c2
+
+*primary: #66dbb2
+*onPrimary: #003829
+*primaryContainer: #00513c
+*onPrimaryContainer: #83f8cd
+
+*secondary: #b1c5ff
+*onSecondary: #1a4292
+*secondaryContainer: #1a4292
+*onSecondaryContainer: #dae2ff
+
+*tertiary: #ffb961
+*onTertiary: #472a00
+*tertiaryContainer: #663e00
+*onTertiaryContainer: #ffddb8
+
+*error: #ffb4ab
+*onError: #690005
+*errorContainer: #93000a
+*onErrorContainer: #ffdad6
+
+! Normal copy-paste keybindings without perls
+URxvt.iso14755:                   false
+URxvt.keysym.Shift-Control-V:     eval:paste_clipboard
+URxvt.keysym.Shift-Control-C:     eval:selection_to_clipboard
+!Xterm escape codes, word by word movement
+URxvt.keysym.Control-Left:        \033[1;5D
+URxvt.keysym.Shift-Control-Left:  \033[1;6D
+URxvt.keysym.Control-Right:       \033[1;5C
+URxvt.keysym.Shift-Control-Right: \033[1;6C
+URxvt.keysym.Control-Up:          \033[1;5A
+URxvt.keysym.Shift-Control-Up:    \033[1;6A
+URxvt.keysym.Control-Down:        \033[1;5B
+URxvt.keysym.Shift-Control-Down:  \033[1;6B

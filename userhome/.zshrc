@@ -12,4 +12,4 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh.json)"
+eval "$(oh-my-posh init zsh --config ~/.config/tanaica/oh-my-posh.json)"
