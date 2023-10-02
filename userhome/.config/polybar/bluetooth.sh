@@ -21,7 +21,11 @@ newline='
 
 showConnectionInformation() {
   name=$(bluetoothctl info | grep -Eo "Name: .*" | sed "s/Name: //")
-  printf "%%{B$primaryContainer F$onPrimaryContainer}  \u16d2 $name  \n"
+  if [[ ${#name} == 0 ]]; then
+    printf "%%{B$tertiaryContainer F$onTertiaryContainer}  \u16d2  \n"
+  else
+    printf "%%{B$primaryContainer F$onPrimaryContainer}  \u16d2 $name  \n"
+  fi
 }
 
 while true; do
