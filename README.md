@@ -31,3 +31,7 @@ To sync the configuration files of your user to the repository, run `./sync-file
 When adding dotfiles for an additional programm or generally suggesting a new dependency, add its AUR name to the `dependencies` file.
 
 Konsole likes to regularly mess up configurations. Because of this, it is highly reccommended you run `git update-index --skip-worktree userhome/.config/konsolerc` after initializing the repository and be careful what changes are committed.
+
+## Customization
+
+If you want to customize your installation, it is highly reccomenden you fork this project and track your own changes from there. If you think some of the changes you made are worth distributing to all users of this project, please use `git cherry-pick` on a new branch and please open a pull request. All improvements are welcome.
