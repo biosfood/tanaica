@@ -30,4 +30,4 @@ To sync the configuration files of your user to the repository, run `./sync-file
 
 When adding dotfiles for an additional programm or generally suggesting a new dependency, add its AUR name to the `dependencies` file.
 
-Konsole likes to regularly mess up configurations. Because of this, its `.konsolerc` is inside `.gitignore`. Be especially careful when committing this file.
+Konsole likes to regularly mess up configurations. Because of this, it is highly reccommended you run `git update-index --skip-worktree userhome/.config/konsolerc` after initializing the repository and be careful what changes are committed.
