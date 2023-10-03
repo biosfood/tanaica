@@ -26,3 +26,5 @@ for file in $(cat $1); do
   mkdir -p "$(dirname $targetFile)"
   /usr/bin/cp -r ${file} ${targetFile}
 done
+
+git update-index --skip-worktree userhome/.config/konsolerc
