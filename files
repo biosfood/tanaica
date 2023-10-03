@@ -2,6 +2,7 @@
 ~/.config/i3
 ~/.config/konsolerc
 ~/.config/polybar
+~/.config/picom
 ~/.zshrc
 ~/.bashrc
 /usr/lib/os-release
