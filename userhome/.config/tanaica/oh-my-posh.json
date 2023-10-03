@@ -17,7 +17,8 @@
           },
           "style": "diamond",
           "leading_diamond": "\ue0b2",
-          "template": " {{.Icon}} <transparent>\ue0b2</>",
+          "trailing_diamond": "\ue0d2",
+          "template": " {{.Icon}} ",
           "type": "os"
         },
         {
@@ -25,15 +26,17 @@
           "foreground_templates": [ "{{.Env.onSecondaryContainer}}" ],
           "style": "diamond",
           "leading_diamond": "\ue0b2",
-          "template": "\uf489 {{ .Name }} <transparent>\ue0b2</>",
+          "trailing_diamond": "\ue0d2",
+          "template": "\uf489 {{ .Name }} ",
           "type": "shell"
         },
         {
           "background_templates": [   "{{.Env.tertiaryContainer}}" ],
           "foreground_templates": [ "{{.Env.onTertiaryContainer}}" ],
           "leading_diamond": "\ue0b2",
+          "trailing_diamond": "\ue0d2",
           "style": "diamond",
-          "template": " {{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }}@{{ .HostName }} <transparent>\ue0b2</>",
+          "template": " {{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }}@{{ .HostName }} ",
           "type": "session"
         },
         {
