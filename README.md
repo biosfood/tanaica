@@ -18,11 +18,9 @@ All dependencies for this repository are listed in `dependencies`. To install al
 
 To install the files into your currently used installation, just run the installation script:
 
-``` ./install.sh files ```
+``` ./install.sh ```
 
 This will copy all the configuration files in the repository into their respective folders.
-
-To leave out or just copy a few select files, modify the `files` file which contains references to all synchronized files accordingly.
 
 ## Development
 
