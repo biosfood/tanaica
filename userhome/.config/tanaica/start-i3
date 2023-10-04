@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# turn xresources into environment variables
 xrdb -load ~/.config/tanaica/Xresources 
 xrdb_output=$(xrdb -query)
 
@@ -11,7 +13,17 @@ while IFS= read -r line; do
   fi
 done <<< "$xrdb_output"
 
+# load environment from .env
+while read -r line; do
+  if [[ "$line" =~ = ]]; then
+    name=$(echo "$line" | cut -d'=' -f1)
+    value=$(echo "$line" | cut -d'=' -f2)
+    export $name=$value
+  fi
+done <<< $(cat .config/tanaica/env)
+
 # Use zsh in i3
 export SHELL=/bin/zsh
 
+# start i3
 i3
