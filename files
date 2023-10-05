@@ -6,5 +6,7 @@
 ~/.zshrc
 ~/.bashrc
 ~/.scripts
+~/.local/share/konsole/tanaica.profile
+~/.local/share/konsole/tanaica.colorscheme.template
 /usr/lib/os-release
 /usr/share/xsessions/tanaica.desktop

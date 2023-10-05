@@ -25,5 +25,8 @@ done <<< $(cat .config/tanaica/env)
 # Use zsh in i3
 export SHELL=/bin/zsh
 
+# update konsole colorscheme
+~/.scripts/build-konsole-colors.sh
+
 # start i3
 i3
