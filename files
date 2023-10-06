@@ -3,6 +3,7 @@
 ~/.config/konsolerc
 ~/.config/polybar
 ~/.config/picom
+~/.config/rofi
 ~/.zshrc
 ~/.bashrc
 ~/.scripts

@@ -1,0 +1,5 @@
+* {
+  foreground: ${foreground};
+  background: ${background};
+  alternate-normal-background: @background;
+}
