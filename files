@@ -5,6 +5,7 @@
 ~/.config/picom
 ~/.config/rofi
 ~/.config/nvim/lua/custom/plugins.lua
+~/.config/nvim/lua/custom/chadrc.lua
 ~/.zshrc
 ~/.bashrc
 ~/.scripts
