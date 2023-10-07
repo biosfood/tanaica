@@ -24,3 +24,5 @@ libsecret
 inetutils
 less
 python-requests
+tree
+xclip
