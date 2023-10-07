@@ -20,7 +20,7 @@ newline='
 '
 
 showConnectionInformation() {
-  connectionRaw=$(iwconfig wlan0)
+  connectionRaw=$(iwconfig $WLAN_DEVICE)
   readarray -t connection < <(echo "$connectionRaw")
   essid=$(echo ${connection[0]} | sed "s/.*ESSID://")
   if [[ "$essid" == "off/any" ]]; then
