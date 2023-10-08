@@ -43,3 +43,6 @@ The file ´~/.config/tanaica/env´ can be customized by the user. It should cont
 ## Utility scripts:
 
 The directory `~/.scripts/` contains a number of small utility scripts do do useful stuff from the command line without having to remember as many commands.
+
+## Installing lib32-packages:
+If you want to install packages of the form ´lib32-XXX´, you need to activate the ´multilib´ repository in ´/etc/pacman.conf´ first!
