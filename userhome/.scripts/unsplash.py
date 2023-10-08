@@ -16,7 +16,7 @@ if not os.path.isdir(os.path.expanduser(path)):
 payload = {
     "client_id": clientId,
     "orientation": "landscape",
-    "collections": "317099",
+    "query": "wallpaper dark"
 }
 
 response = requests.get(f"{baseURL}/photos/random", params=payload).json()
@@ -30,5 +30,6 @@ print(f"downloading {url} as {filename}...")
 with open(os.path.expanduser(filename), "wb+") as file:
     file.write(requests.get(url).content)
 
-print("Finished downloading, setting the image as the desktop-backgroud now...")
+print("Finished downloading, setting the image as the desktop-backgroud and giving it a download in return :)")
 os.system(f"feh --bg-fill {filename}")
+requests.get(response["links"]["download_location"], params={"client_id": clientId})
