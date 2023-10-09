@@ -15,10 +15,10 @@ toggle() {
 }
 
 trap "toggle" USR1
-
 while true; do
   layout=$(setxkbmap -query | grep -Eo "layout: +.*" | sed "s/layout:\s*//")
   printf "  ⌨: $layout  \n"
+  $(xmodmap ~/.config/tanaica/xmodmap 2> /dev/null)
   sleep infinity &
   pid=$!
   wait

@@ -28,9 +28,5 @@ export SHELL=/bin/zsh
 # ensure password manager will work
 source /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
 
-# remap caps lock as another mod4 key
-# Hyper + shift + right is some sort of singularity on a thinkpad L13 yoga (german keyboard)
-xmodmap ~/.config/tanaica/xmodmap
-
 # start i3
 i3
