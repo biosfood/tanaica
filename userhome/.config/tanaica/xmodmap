@@ -1,0 +1,4 @@
+clear Lock
+clear Mod4
+keycode 66 = Alt_R
+add Mod4 = Alt_R Super_L Super_R Hyper_L Hyper_R
