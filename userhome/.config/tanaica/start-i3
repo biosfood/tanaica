@@ -25,5 +25,8 @@ done <<< $(cat .config/tanaica/env)
 # Use zsh in i3
 export SHELL=/bin/zsh
 
+# ensure password manager will work
+source /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+
 # start i3
 i3
