@@ -28,5 +28,8 @@ export SHELL=/bin/zsh
 # ensure password manager will work
 source /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
 
+# set a random liked background
+feh --bg-fill --randomize ~/.var/backgrounds/liked/*
+
 # start i3
 i3
