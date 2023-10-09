@@ -23,8 +23,8 @@ local plugins = {
   {
     "iamcco/markdown-preview.nvim",
     lazy = false,
-    run = function()
-      vim.fn["mkdp#util#install"]()
+    config = function()
+      vim.cmd "hi link markdownError NONE"
     end,
   },
 }
