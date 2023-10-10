@@ -27,7 +27,7 @@
           "style": "diamond",
           "leading_diamond": "\ue0b2",
           "trailing_diamond": "\ue0d2",
-          "template": "\uf489 {{ .Name }} ",
+          "template": " \uf489 {{ .Name }} ",
           "type": "shell"
         },
         {
