@@ -13,7 +13,9 @@ This project is named after the [Tanaica Montes](https://en.wikipedia.org/wiki/T
 
 All dependencies for this repository are listed in `dependencies`. To install all of them, use your favourite AUR-helper (here paru) like this and install all the packages:
 
-``` cat dependencies | paru -S - ```
+```
+cat dependencies | paru -S -
+```
 
 ## Installation
 
@@ -21,7 +23,9 @@ All dependencies for this repository are listed in `dependencies`. To install al
 
 To install the files into your currently used installation, just run the installation script:
 
-``` ./install.sh ```
+```
+./install.sh
+```
 
 This will copy all the configuration files in the repository into their respective folders.
 
