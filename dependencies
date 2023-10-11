@@ -37,3 +37,8 @@ evtest
 acpilight
 lsusb
 pavucontrol
+htop
+jupyterlab
+rdesktop
+jupyterlab
+python-matplotlib
