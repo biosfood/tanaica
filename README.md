@@ -41,9 +41,6 @@ Konsole likes to regularly mess up configurations. Because of this, it is highly
 
 If you want to customize your installation, it is highly reccomenden you fork this project and track your own changes from there. If you think some of the changes you made are worth distributing to all users of this project, please use `git cherry-pick` on a new branch and please open a pull request. All improvements are welcome.
 
-## Env file
-The file ´~/.config/tanaica/env´ can be customized by the user. It should contain lines of the form ´name=value´. These lines are read and inserted as environment variables when starting Tanaica.
-
 ## Utility scripts:
 
 The directory `~/.scripts/` contains a number of small utility scripts do do useful stuff from the command line without having to remember as many commands.

@@ -16,3 +16,6 @@ ADAPTER=ADP0
 
 ### Unsplash background fetcher
 The script located at ´~/.scripts/unsplash.py´ will look for an environment variable called ´UNSPLASH_CLIENT_ID´. This is the API key from unsplash and will be used to fetch a new background. If you have an unsplash API key, insert it there.
+
+## Xresources
+The file ´~/.config/tanaica/Xresources´ contains a number of theme definitions that are used all around Tanaica. On startup, all resources are read from this file using ´xrdb -load´ and then inserted as environment variables as well. This means, that both the x-resource ´background´ and the environment variable ´$background´ will contain the same hex color.
