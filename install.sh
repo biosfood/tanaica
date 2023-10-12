@@ -6,3 +6,5 @@
 cd userhome && rsync -avR . ~ && cd ..
 
 cd root && sudo rsync -avr . / && cd ..
+
+systemctl enable --now libvirtd

@@ -42,3 +42,7 @@ jupyterlab
 rdesktop
 jupyterlab
 python-matplotlib
+dnsmasq
+dmidecode
+ent
+python-librosa
