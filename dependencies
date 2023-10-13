@@ -46,3 +46,5 @@ dnsmasq
 dmidecode
 ent
 python-librosa
+python-lazy-loader
+python-pandas
