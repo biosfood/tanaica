@@ -19,3 +19,5 @@ The script located at ´~/.scripts/unsplash.py´ will look for an environment va
 
 ## Xresources
 The file ´~/.config/tanaica/Xresources´ contains a number of theme definitions that are used all around Tanaica. On startup, all resources are read from this file using ´xrdb -load´ and then inserted as environment variables as well. This means, that both the x-resource ´background´ and the environment variable ´$background´ will contain the same hex color.
+
+These resources are then used everywhere a script needs access to the colors with just the environment variables.
