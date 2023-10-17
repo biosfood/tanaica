@@ -14,3 +14,4 @@
 /usr/lib/os-release
 /usr/share/xsessions/tanaica.desktop
 /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+/etc/pacman.conf
