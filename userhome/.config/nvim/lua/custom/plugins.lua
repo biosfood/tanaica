@@ -27,6 +27,10 @@ local plugins = {
       vim.cmd "hi link markdownError NONE"
     end,
   },
+  {
+    'Exafunction/codeium.vim',
+    event = 'BufEnter'
+  },
 }
 
 return plugins
