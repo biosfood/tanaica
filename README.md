@@ -3,7 +3,7 @@
 i3-based linux configurations for a peaceful setup experience
 
 ## Setup
-For a complete setup guide, look at the SETUP.md file
+For a complete setup guide, look at the setup.md file in the ´docs´ directory.
 
 ## Entymology
 
