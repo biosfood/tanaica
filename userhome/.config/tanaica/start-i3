@@ -31,5 +31,10 @@ source /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
 # set a random liked background
 feh --bg-fill --randomize ~/.var/backgrounds/liked/*
 
+# if the variable DEFAULT_KEYBOARD is set, set the keyboard layout
+if [ -n "$DEFAULT_KEYBOARD" ]; then
+  setxkbmap $DEFAULT_KEYBOARD
+fi
+
 # start i3
 i3
