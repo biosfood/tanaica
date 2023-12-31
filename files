@@ -4,6 +4,7 @@
 ~/.config/polybar
 ~/.config/picom
 ~/.config/rofi
+~/.config/neofetch
 ~/.config/nvim/lua/custom/plugins.lua
 ~/.config/nvim/lua/custom/chadrc.lua
 ~/.zshrc

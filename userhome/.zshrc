@@ -14,3 +14,5 @@ compinit
 eval "$(oh-my-posh init zsh --config ~/.config/tanaica/oh-my-posh.json)"
 bindkey -v
 bindkey "^[[3~" delete-char
+
+neofetch
