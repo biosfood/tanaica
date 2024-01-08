@@ -18,3 +18,6 @@ bindkey "^[[3~" delete-char
 eval $(thefuck --alias)
 
 neofetch
+
+# Created by `pipx` on 2024-01-04 15:37:59
+export PATH="$PATH:/home/lukas/.local/bin"
