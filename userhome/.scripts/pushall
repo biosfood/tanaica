@@ -1,0 +1,9 @@
+#!/bin/bash
+
+pushd ~/projects/
+for dir in $(ls) ; do
+  pushd $dir
+  git push 
+  popd
+done
+popd
