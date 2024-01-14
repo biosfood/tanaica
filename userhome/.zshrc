@@ -1,15 +1,12 @@
-# Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 setopt autocd beep extendedglob nomatch notify
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/lukas/.zshrc'
+
+zstyle :compinstall filename '$HOME/.zshrc'
 
 autoload -Uz compinit
 compinit
-# End of lines added by compinstall
 
 eval "$(oh-my-posh init zsh --config ~/.config/tanaica/oh-my-posh.json)"
 bindkey -v
@@ -17,7 +14,6 @@ bindkey "^[[3~" delete-char
 
 eval $(thefuck --alias)
 
-neofetch
+export PATH="$PATH:$HOME/.local/bin:$HOME/.scripts"
 
-# Created by `pipx` on 2024-01-04 15:37:59
-export PATH="$PATH:/home/lukas/.local/bin"
+neofetch
