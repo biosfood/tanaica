@@ -3,7 +3,9 @@
 pushd ~/projects/
 for dir in $(ls) ; do
   pushd $dir
-  git push 
+  for remote in $(git remote) ; do
+    git push $remote
+  done
   popd
 done
 popd
