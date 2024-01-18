@@ -47,3 +47,7 @@ The directory `~/.scripts/` contains a number of small utility scripts do do use
 
 ## Installing lib32-packages:
 If you want to install packages of the form ´lib32-XXX´, you need to activate the ´multilib´ repository in ´/etc/pacman.conf´ first!
+
+## Theming
+
+To change the desktop theme for window borders, open `lxappearance` and select the theme you want.
