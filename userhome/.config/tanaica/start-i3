@@ -40,5 +40,8 @@ fi
 xinput map-to-output 12 eDP-1
 xinput map-to-output 19 eDP-1
 
+# theme
+export GTK_THEME=Layan:dark
+
 # start i3
 i3
