@@ -35,12 +35,8 @@ pavucontrol
 htop
 jupyterlab
 rdesktop
+python
 jupyterlab
-python-matplotlib
-python-requests
-python-librosa
-python-lazy-loader
-python-pandas
 dnsmasq
 dmidecode
 ent
