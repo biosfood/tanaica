@@ -43,5 +43,8 @@ xinput map-to-output 19 eDP-1
 # theme
 export GTK_THEME=Layan:dark
 
+# browser
+export BROWSER=pulse-browser
+
 # start i3
 i3
