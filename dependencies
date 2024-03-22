@@ -31,10 +31,13 @@ polybar
 wireless_tools
 net-tools
 
-layan-gtk-theme-git
-ttf-noto-emoji-monochrome
-ttf-sourcecodepro-nerd
+android-file-transfer
+
 lxappearance
+layan-gtk-theme-git
+ttf-sourcecodepro-nerd
+ttf-jetbrains-mono-nerd
+ttf-noto-emoji-monochrome
 
 bluez
 bluez-utils
