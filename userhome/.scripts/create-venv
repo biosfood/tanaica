@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# need exactly one argument
+if [ $# -ne 1 ]; then
+  echo "Usage: $0 <venv name>"
+  exit 1
+fi
+
+# create virtual environment
+python3 -m venv /opt/python-envs/$1

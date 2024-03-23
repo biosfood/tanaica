@@ -51,3 +51,7 @@ If you want to install packages of the form ´lib32-XXX´, you need to activate 
 ## Theming
 
 To change the desktop theme for window borders, open `lxappearance` and select the theme you want. Keep in mind that the selected theme will be specific to a user.
+
+## Python environment setup
+
+To set up a new virtual python environment, use the `create-venv` script.
