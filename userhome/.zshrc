@@ -15,6 +15,7 @@ bindkey "^[[3~" delete-char
 eval $(thefuck --alias)
 
 export PATH="$PATH:$HOME/.local/bin:$HOME/.scripts"
+export PATH="$PATH:/home/lukas/.local/bin"
 
 source /opt/intel/oneapi/mkl/latest/env/vars.sh
 source /opt/intel/oneapi/compiler/latest/env/vars.sh
