@@ -55,3 +55,5 @@ To change the desktop theme for window borders, open `lxappearance` and select t
 ## Python environment setup
 
 To set up a new virtual python environment, use the `create-venv` script.
+
+Then, adjust the corresponding line in the `.zshrc` file.
