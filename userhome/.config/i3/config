@@ -210,7 +210,7 @@ client.placeholder #bfbfbf #162025 #bfbfbf #75404b #75404b
 client.background #162025
 
 # Gaps
-gaps inner 10
+gaps inner 5
 gaps outer -4
 
 smart_gaps on
@@ -269,4 +269,6 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 10 -time 0 -steps 1
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10 -time 0 -steps 1
 
 # transparency Manager
-exec --no-startup-id picom -b -c
+# exec --no-startup-id picom -b -c
+
+exec ~/.config/i3/init.sh
