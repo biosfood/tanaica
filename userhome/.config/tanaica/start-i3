@@ -36,10 +36,6 @@ if [ -n "$DEFAULT_KEYBOARD" ]; then
   setxkbmap $DEFAULT_KEYBOARD
 fi
 
-# map the pen input device to the integrated screen
-xinput map-to-output 12 eDP-1
-xinput map-to-output 19 eDP-1
-
 # theme
 export GTK_THEME=Layan:dark
 
